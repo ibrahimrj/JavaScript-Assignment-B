@@ -69,7 +69,7 @@ house.areas.kitchen.items[1] = house.areas.kitchen.items[1].replace('broken chai
 // (9) Find total number of areas in the house. Hint: Use the Object.keys() function.
 Object.keys(house.areas).length;
 // (10) Find the total number of beds in all rooms. Hint: Use the Object.values() function.
-totalBed=0
+let totalBed=0
 let rooms = Object.values(house.areas);
 for (let i = 0;i< rooms.length;i++){
     for (let j = 0; j<rooms[i].items.length;j++){
